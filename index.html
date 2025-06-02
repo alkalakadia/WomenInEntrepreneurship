@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,6 +5,7 @@
     <title>Welcome to Women in Entrepreneurship</title>
     <link rel="stylesheet" href="style.css">
     <script src="sidebar.js" defer></script>
+    <script src="animations.js" defer></script>
 </head>
 <body>
     <div id="sidebar" class="sidebar">
@@ -20,10 +20,11 @@
     <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
     <div class="menu-icon" onclick="toggleSidebar()">☰</div>
 
+    <!-- ✅ Fullscreen image logo background -->
     <img src="assets/logo.png" alt="WE Full Background" class="background-image" />
 
     <main class="home-content">
-        <div class="home-overlay">
+        <div class="home-overlay animate-on-scroll">
             <h1>Women in Entrepreneurship</h1>
             <p>Empowering Future Leaders</p>
         </div>
