@@ -2,13 +2,16 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Upcoming & Past Events</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - WE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
     <script src="sidebar.js" defer></script>
     <script src="animations.js" defer></script>
+    <script src="calendar.js" defer></script>
 </head>
-<body style="background-color: #fef7ee;">
+<body>
     <div id="sidebar" class="sidebar">
         <img src="assets/logo.png" alt="WE Logo" class="sidebar-logo">
         <a href="index.html">Home</a>
@@ -21,9 +24,13 @@
     <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
     <div class="menu-icon" onclick="toggleSidebar()">☰</div>
 
-    <main class="container">
-        <h1 class="animate-on-scroll">Upcoming & Past Events</h1>
-        <p class="animate-on-scroll">This is a placeholder for the upcoming & past events page.</p>
-    </main>
+    <div class="content-wrapper">
+        <main class="container">
+            <h1 class="animate-on-scroll">Upcoming Events</h1>
+            <p class="animate-on-scroll">Join us for exciting events throughout the semester! Our calendar below shows all upcoming events and workshops. Click on any highlighted date to see event details.</p>
+            
+            <div class="calendar-container animate-on-scroll"></div>
+        </main>
+    </div>
 </body>
 </html>

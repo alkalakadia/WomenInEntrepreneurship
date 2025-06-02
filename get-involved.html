@@ -2,13 +2,15 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Get Involved with WE</title>
+    <title>Get Involved - WE</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="sidebar.js" defer></script>
     <script src="animations.js" defer></script>
 </head>
-<body style="background-color: #fef7ee;">
+<body>
     <div id="sidebar" class="sidebar">
         <img src="assets/logo.png" alt="WE Logo" class="sidebar-logo">
         <a href="index.html">Home</a>
@@ -21,9 +23,59 @@
     <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
     <div class="menu-icon" onclick="toggleSidebar()">☰</div>
 
-    <main class="container">
-        <h1 class="animate-on-scroll">Get Involved with WE</h1>
-        <p class="animate-on-scroll">This is a placeholder for the get involved with we page.</p>
-    </main>
+    <div class="content-wrapper">
+        <main class="container">
+            <h1 class="animate-on-scroll">Get Involved</h1>
+            
+            <section class="connect-section animate-on-scroll">
+                <h2>Connect With Us</h2>
+                <div class="social-grid">
+                    <a href="" target="_blank" class="social-link">
+                        <div class="social-icon instagram">
+                            <i class="fab fa-instagram"></i>
+                        </div>
+                        <span>Follow us on Instagram</span>
+                    </a>
+                    
+                    <a href="" target="_blank" class="social-link">
+                        <div class="social-icon groupme">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <span>Join our GroupMe</span>
+                    </a>
+                    
+                    <a href="" target="_blank" class="social-link">
+                        <div class="social-icon linkedin">
+                            <i class="fab fa-linkedin-in"></i>
+                        </div>
+                        <span>Connect on LinkedIn</span>
+                    </a>
+                    
+                    <a href="" class="social-link">
+                        <div class="social-icon email">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <span>Email Us</span>
+                    </a>
+                </div>
+            </section>
+
+            <section class="feedback-section animate-on-scroll">
+                <h2>Share Your Ideas</h2>
+                <p>We want to hear from you! Share your ideas, suggestions, or tell us what excites you about WE.</p>
+                
+                <a href="" target="_blank" class="feedback-button">
+                    <div class="feedback-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="feedback-text">
+                        <h3>Submit Your Ideas</h3>
+                        <p>Shape the future of Women in Entrepreneurship at UW-Madison</p>
+                    </div>
+                    <i class="fas fa-arrow-right"></i>
+                </a>
+            </section>
+        </main>
+    </div>
 </body>
 </html>

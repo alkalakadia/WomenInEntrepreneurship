@@ -2,13 +2,17 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Meet the Team</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team - WE</title>
+    <link rel="icon" type="image/png" href="assets/favicon.png">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="components.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <script src="sidebar.js" defer></script>
     <script src="animations.js" defer></script>
 </head>
-<body style="background-color: #fef7ee;">
+<body>
     <div id="sidebar" class="sidebar">
         <img src="assets/logo.png" alt="WE Logo" class="sidebar-logo">
         <a href="index.html">Home</a>
@@ -21,9 +25,58 @@
     <div id="overlay" class="overlay" onclick="closeSidebar()"></div>
     <div class="menu-icon" onclick="toggleSidebar()">☰</div>
 
-    <main class="container">
-        <h1 class="animate-on-scroll">Meet the Team</h1>
-        <p class="animate-on-scroll">This is a placeholder for the meet the team page.</p>
-    </main>
+    <div class="content-wrapper">
+        <main class="container">
+            <h1 class="animate-on-scroll">Meet Our Executive Team</h1>
+            <p class="animate-on-scroll">Meet the passionate individuals leading Women in Entrepreneurship. Our executive team is committed to fostering innovation, leadership, and success among women entrepreneurs.</p>
+            
+            <div class="team-grid animate-on-scroll">
+                <!-- Example team member cards - Replace with actual team members -->
+                <div class="team-member">
+                    <img src="assets/placeholder-profile.jpg" alt="Alka Lakadia" class="team-member-image">
+                    <div class="team-member-info">
+                        <h3 class="team-member-name">Alka Lakadia</h3>
+                        <p class="team-member-role">President Of Innovation</p>
+                        <p class="team-member-bio">Placeholder</p>
+                        <div class="team-member-social">
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:lakadia@wisc.edu"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="assets/placeholder-profile.jpg" alt="Trinity Krohn" class="team-member-image">
+                    <div class="team-member-info">
+                        <h3 class="team-member-name">Trinity Krohn</h3>
+                        <p class="team-member-role">President Of Discovery</p>
+                        <p class="team-member-bio"> Placeholder</p>
+                        <div class="team-member-social">
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="team-member">
+                    <img src="assets/placeholder-profile.jpg" alt="Olivia Pozza" class="team-member-image">
+                    <div class="team-member-info">
+                        <h3 class="team-member-name">Olivia Pozza</h3>
+                        <p class="team-member-role">Vice President</p>
+                        <p class="team-member-bio">Placeholder</p>
+                        <div class="team-member-social">
+                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" target="_blank"><i class="fab fa-instagram"></i></a>
+                            <a href="mailto:"><i class="fas fa-envelope"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add remaining team members -->
+            </div>
+        </main>
+    </div>
 </body>
 </html>
